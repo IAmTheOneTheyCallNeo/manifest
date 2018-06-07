@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <default revision="refs/tags/android-8.1.0_r29"
+  <default revision="refs/tags/android-8.1.0_r23"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -37,7 +37,7 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
-  <project path="device/moto/shamu" name="iamtheonetheycallneo/device_moto_shamu" remote="github" revision="x" />
+  <project path="device/moto/shamu" name="AOSiP-Devices/device_moto_shamu" remote="github" revision="oreo-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
@@ -372,7 +372,7 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
   <project path="hardware/ril" name="iamtheonetheycallneo/hardware_ril" remote="github" revision="x" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
-  <project path="kernel/moto/shamu" name="iamtheonetheycallneo/kernel_moto_shamu" remote="github" revision="x" />
+  <project path="kernel/moto/shamu" name="atharvalele/android_kernel_moto_shamu" remote="github" revision="lineage-15.1" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -549,7 +549,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
-  <project path="vendor/moto" name="iamtheonetheycallneo/vendor_moto" remote="github" revision="x" />
+  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
   <project path="vendor/androidx" name="iamtheonetheycallneo/vendor_x" remote="github" revision="x" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
